@@ -98,6 +98,7 @@ body {
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
+
 .hero-btn {
     color: var(--white-color);
     font-family: inherit;
@@ -203,4 +204,46 @@ body {
 
 .white {
     color: var(--white-color);
+}
+
+.portfolio-btn {
+    color: var(--secondary-title-color);
+    background-color: var(--grey-bg-color);
+    text-align: center;
+    font-family: Roboto;
+    font-family: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
+    cursor: pointer;
+    border: none;
+}
+
+.active {
+    color: var(--white-bg-color);
+    background-color: var(--akcent-color);  
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--akcent-color);
+    background-color: var(--white-bg-color);
+}
+
+.project-title {
+    color: var(--secondary-title-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.product {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
 }
