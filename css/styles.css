@@ -222,14 +222,14 @@ body {
 }
 
 .active {
-    color: var(--white-bg-color);
+    color: var(--white-color);
     background-color: var(--akcent-color);  
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: var(--akcent-color);
-    background-color: var(--white-bg-color);
+    color: var(--white-color);
+    background-color: var(--akcent-color);
 }
 
 .project-title {
